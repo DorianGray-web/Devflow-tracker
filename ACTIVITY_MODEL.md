@@ -1,14 +1,13 @@
-Activity Event
-├── primary_activity
-├── context
-├── ai_assisted
-├── ai_provider
-├── ai_mode
-├── application
-├── workspace
-├── repository
-├── started_at
-├── ended_at
-├── confidence
-├── source
-└── evidence
+Initial model
+Project Session
+└── Activity Event
+
+↓ real workflow observation
+
+Current hypothesis
+Project Session
+├── Workspace Snapshot
+├── Activity Event
+│   └── Evidence
+└── Work Segment
+    └── correlated Activity Events
