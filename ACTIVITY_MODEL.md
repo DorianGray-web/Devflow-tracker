@@ -1,0 +1,14 @@
+Activity Event
+├── primary_activity
+├── context
+├── ai_assisted
+├── ai_provider
+├── ai_mode
+├── application
+├── workspace
+├── repository
+├── started_at
+├── ended_at
+├── confidence
+├── source
+└── evidence
