@@ -1,0 +1,20 @@
+[project]
+name = "engram"
+version = "0.1.0"
+description = "Engineering Memory Platform - local-first workspace for engineering decisions and rationale"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=8.0"]
+
+[project.scripts]
+engram = "engram.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,15 @@
+# Engram privacy defaults
+# Do not commit raw data or user-specific files
+
+# Local configuration
+config.local.json
+
+# Raw evidence (AI chats, logs, screenshots, etc.)
+evidence/*
+!evidence/.gitkeep
+
+# Unreviewed journal drafts
+journal/drafts/
+
+# Any local variants
+**/*.local.*
